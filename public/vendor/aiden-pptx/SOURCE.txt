@@ -1,0 +1,8 @@
+@aiden0z/pptx-renderer 1.4.0 standalone browser ESM bundle.
+Source: https://www.npmjs.com/package/@aiden0z/pptx-renderer
+License: Apache License 2.0 (see LICENSE).
+
+This local bundle parses the uploaded .pptx and renders its original OOXML
+slides (master/layout inheritance, theme colours, text, images, groups and
+tables) as DOM/SVG. No CDN or external font service is used. EduPlay only uses
+the source file as the presentation source; speaker notes remain server-side.

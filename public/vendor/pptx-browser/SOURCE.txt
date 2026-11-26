@@ -1,0 +1,10 @@
+pptx-browser 4.1.5 — MIT licensed, zero-dependency PPTX canvas renderer.
+Source: https://www.npmjs.com/package/pptx-browser
+
+EduPlay vendors the published ES module source locally. The only local edit is
+in src/fonts.js: loadGoogleFontsFor() is a no-op so no external font request is
+made; system font fallbacks are used instead. The original license is included
+as LICENSE.
+
+The original uploaded .pptx file is passed directly to PptxRenderer, so themes,
+layouts, master inheritance, images and text are drawn from the source deck.

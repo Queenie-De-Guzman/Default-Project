@@ -1,0 +1,17 @@
+{
+  "name": "eduplay-lms",
+  "version": "1.3.0",
+  "private": true,
+  "type": "module",
+  "description": "EduPlay – Interactive Learning Management System for Teachers and Students",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "reset-db": "node server/db.js --reset",
+    "import-stories": "node scripts/import-story-pack.mjs",
+    "clear-library": "node scripts/clear-library.mjs"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  }
+}

@@ -13,11 +13,6 @@ npm start
 
 Then sign in with one of the seeded demo accounts:
 
-| Role | Email | Password |
-| --- | --- | --- |
-| Teacher | `teacher@eduplay.ph` | `Teacher123!` |
-| Student | `student@eduplay.ph` | `Student123!` |
-| Administrator | `admin@eduplay.ph` | `Admin123!` |
 
 New teacher accounts requested from the sign-in page stay pending until an administrator approves them in **Admin → Approvals**.
 
